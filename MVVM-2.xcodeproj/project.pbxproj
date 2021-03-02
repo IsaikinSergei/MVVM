@@ -15,6 +15,10 @@
 		EA03383525EE340D00963BB4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03383425EE340D00963BB4 /* TableViewController.swift */; };
 		EA03383925EE35C800963BB4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03383825EE35C800963BB4 /* Profile.swift */; };
 		EA03383C25EE39EB00963BB4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03383B25EE39EB00963BB4 /* TableViewCell.swift */; };
+		EA03384325EE3F6300963BB4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03384225EE3F6300963BB4 /* ViewModel.swift */; };
+		EA03384625EE401600963BB4 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03384525EE401600963BB4 /* TableViewModelType.swift */; };
+		EA03384E25EE43A300963BB4 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03384D25EE43A300963BB4 /* TableViewCellViewModelType.swift */; };
+		EA03385225EE457C00963BB4 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03385125EE457C00963BB4 /* TableViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		EA03383425EE340D00963BB4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EA03383825EE35C800963BB4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EA03383B25EE39EB00963BB4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EA03384225EE3F6300963BB4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EA03384525EE401600963BB4 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
+		EA03384D25EE43A300963BB4 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		EA03385125EE457C00963BB4 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +70,10 @@
 			children = (
 				EA03381E25EE32FD00963BB4 /* AppDelegate.swift */,
 				EA03382025EE32FD00963BB4 /* SceneDelegate.swift */,
-				EA03383425EE340D00963BB4 /* TableViewController.swift */,
-				EA03384025EE3AD000963BB4 /* View */,
 				EA03383E25EE3AB400963BB4 /* Model */,
+				EA03384025EE3AD000963BB4 /* View */,
+				EA03384825EE409000963BB4 /* ViewModel */,
+				EA03384A25EE409E00963BB4 /* Protocols */,
 				EA03382425EE32FD00963BB4 /* Main.storyboard */,
 				EA03382725EE330000963BB4 /* Assets.xcassets */,
 				EA03382925EE330000963BB4 /* LaunchScreen.storyboard */,
@@ -84,9 +93,28 @@
 		EA03384025EE3AD000963BB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA03383425EE340D00963BB4 /* TableViewController.swift */,
 				EA03383B25EE39EB00963BB4 /* TableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EA03384825EE409000963BB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA03384225EE3F6300963BB4 /* ViewModel.swift */,
+				EA03385125EE457C00963BB4 /* TableViewCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA03384A25EE409E00963BB4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EA03384525EE401600963BB4 /* TableViewModelType.swift */,
+				EA03384D25EE43A300963BB4 /* TableViewCellViewModelType.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA03384E25EE43A300963BB4 /* TableViewCellViewModelType.swift in Sources */,
 				EA03383C25EE39EB00963BB4 /* TableViewCell.swift in Sources */,
 				EA03381F25EE32FD00963BB4 /* AppDelegate.swift in Sources */,
 				EA03383925EE35C800963BB4 /* Profile.swift in Sources */,
 				EA03383525EE340D00963BB4 /* TableViewController.swift in Sources */,
+				EA03384625EE401600963BB4 /* TableViewModelType.swift in Sources */,
+				EA03385225EE457C00963BB4 /* TableViewCellViewModel.swift in Sources */,
+				EA03384325EE3F6300963BB4 /* ViewModel.swift in Sources */,
 				EA03382125EE32FD00963BB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
