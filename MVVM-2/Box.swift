@@ -18,7 +18,7 @@ class Box<T> {
         }
     }
     
-    func buind(listener: @escaping Listener) {
+    func bind(listener: @escaping Listener) {
         self.listener = listener
         listener(value)
     }
