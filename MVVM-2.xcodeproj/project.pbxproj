@@ -22,6 +22,7 @@
 		EA03385625EECF6C00963BB4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03385525EECF6C00963BB4 /* DetailViewController.swift */; };
 		EA03385925EED06600963BB4 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03385825EED06600963BB4 /* DetailViewModelType.swift */; };
 		EA03385C25EED0D000963BB4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03385B25EED0D000963BB4 /* DetailViewModel.swift */; };
+		EA03385F25EF769900963BB4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03385E25EF769900963BB4 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		EA03385525EECF6C00963BB4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EA03385825EED06600963BB4 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
 		EA03385B25EED0D000963BB4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EA03385E25EF769900963BB4 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				EA03382725EE330000963BB4 /* Assets.xcassets */,
 				EA03382925EE330000963BB4 /* LaunchScreen.storyboard */,
 				EA03382C25EE330000963BB4 /* Info.plist */,
+				EA03385E25EF769900963BB4 /* Box.swift */,
 			);
 			path = "MVVM-2";
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				EA03383925EE35C800963BB4 /* Profile.swift in Sources */,
 				EA03383525EE340D00963BB4 /* TableViewController.swift in Sources */,
 				EA03384625EE401600963BB4 /* TableViewModelType.swift in Sources */,
+				EA03385F25EF769900963BB4 /* Box.swift in Sources */,
 				EA03385925EED06600963BB4 /* DetailViewModelType.swift in Sources */,
 				EA03385C25EED0D000963BB4 /* DetailViewModel.swift in Sources */,
 				EA03385225EE457C00963BB4 /* TableViewCellViewModel.swift in Sources */,
